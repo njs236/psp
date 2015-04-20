@@ -5,9 +5,18 @@
 <!-- Class Scripts -->
 <script src="src/psp.js"></script>
 <script src="src/model.js"></script>
+<script src="src/view.js"></script>
 <script src="src/controller.js"></script>
+<!-- CSS -->
+<link href="css/patient.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+<p> These are my Doctors:</p>
+<div id="hospitalDoctors">
+</div>
+<p> These are my billable Patients by Doctors:</p>
+<div id="hospitalPatients">
+</div>
 <script>
 (function () {
 psp.initModule();
