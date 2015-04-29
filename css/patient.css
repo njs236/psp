@@ -1,3 +1,8 @@
 .tab {
     padding-left: 3em;
 }
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+}
