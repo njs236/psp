@@ -1,5 +1,5 @@
 psp.view = (function () {
-    var View;
+    var View, initModule;
     View = function (elements) {
         this._elements = elements;
     }

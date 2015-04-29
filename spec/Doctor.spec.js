@@ -1,10 +1,8 @@
 describe("Doctor", function () {
 var hospital, doctor, patient;
 
-    beforeEach(function() {
-        hospital = globalConstants.hospital;
-        doctor = hospital.addDoctor(1,"David", "Weir", "N205", "30", hospital);
-        patient = doctor.addPatient(1,"Nathan", "Sinclair", 0, doctor);
+    beforeEach(function() 
+    {
     });
     
     it("should have an id", function () {
