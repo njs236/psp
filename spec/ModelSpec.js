@@ -4,10 +4,10 @@ var doctor, patient;
     })
     
     it("should add Doctors", function () {
-        expect(doctor).not.Null;
+        expect(doctor.getId()).toBe(14);
     })
     
     it("should add Patients", function () {
-        expect(patient).not.Null;
+        expect(patient.getId()).toBe(600);
     })
 })
